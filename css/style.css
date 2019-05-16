@@ -1,0 +1,482 @@
+/* 
+Author:- Adnan Ahmed
+Email Address:- adnan.ahmed0061@gmail.com
+Github ID:- https://github.com/Adnan0061
+*/
+
+
+/*
+
+<--==============Index================-->
+
+1. Navigation section
+2. Hero Section
+3. Preview Section
+4. Template Section
+5. Feature Section
+6. More Feature Section
+7. Information Section
+8. Discover Section
+9. Footer
+
+*/
+
+/*<--================== Global Css==========-->*/
+
+section {
+
+}
+
+h1, h2, h4 {
+	color: white;
+}
+
+h1 span {
+	color: #2a5da3;
+}
+
+h2 span {
+	color: #2a5da3;
+}
+
+p {
+	color: #2a5da3;	
+}
+
+button {
+	background: none;
+	border: 1px solid #2a5da3;
+	border-radius: 20px;
+	padding: 3px 15px;
+    color: white;
+}
+
+.text-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.image-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*<===================== project Css===============================>*/
+
+body {
+	background: url(../img/bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/*<===================== Navigation Section Css================>*/
+
+button.navbar-toggler.toggler-example {
+    border: 2px solid #2a5ea4;
+}
+.fa.fa-bars {
+    font-size: 30px;
+    color: #2a5ea4;
+}
+.navbar.navbar-light.lighten-4 {
+  background: transparent;
+  box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #2a5ea4;
+}
+
+/*<===================== Preview Section Css================>*/
+
+#preview {
+	background: url(../img/screan-bg.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.preview-r img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.preview-l img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+.preview-m img {
+    vertical-align: middle;
+    border-style: none;
+    width: 120%;
+    position: relative;
+    top: -60px;
+    left: -35px;
+}
+
+/*<===================== Templates Section Css================>*/
+
+#templates img {
+	vertical-align: middle;
+    border-style: none;
+    width: 115%;
+    position: relative;
+    right: 300px;
+    top: -55px;
+}
+
+/*<===================== Features Section Css================>*/
+
+#features h2 {
+    padding: 0 0 100px;
+}
+
+#features img {
+    width: 150%;
+    position: relative;
+    top: -120px;
+    left: -95px;
+}
+
+/*<===================== More Features Section Css================>*/
+
+#more img {
+    vertical-align: middle;
+    border-style: none;
+    width: 120%;
+    position: relative;
+    top: -120px;
+    left: 10px;
+}
+
+/*<===================== review Section Css================>*/
+
+#review {
+	background: #061326;
+	padding: 50px 0;
+}
+
+#review p {
+	width: 60%;
+	margin: 0 auto;
+	padding: 50px 0 15px;
+}
+
+#review h4 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 5px 0 100px;
+}
+
+.carousel-indicators li {
+	width: 7px;
+	height: 7px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-radius: 10px
+}
+
+/*<===================== Discover Section Css================>*/
+
+#discover {
+	background-color: #030810;
+	padding: 80px 0;
+}
+
+#discover img {
+	width: 100%;
+}
+
+
+/*<===================== Footer Section Css================>*/
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*<===================== Responsive for mobile devices ================>*/
+
+@media (min-width: 0px) and (max-width: 575.9px) {
+
+	.navbar .container {
+	    padding: 0;
+	}
+	.navbar-light .navbar-brand {
+	    width: 75%;
+	}
+	.navbar-brand img {
+	    width: 80%;
+	    margin: 0;
+	}
+	.preview-m img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 100%;
+	    position: relative;
+	    top: -60px;
+	    left: 0px;
+	}
+
+	#templates img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 100%;
+	    position: relative;
+	    left: -14px;
+	    top: -10px;
+	}
+
+	#templates .t-r {
+		text-align: center!important;
+		padding: 10px;
+	}
+	#features {
+	    padding: 30px 0;
+	}
+	#features h2 {
+	    padding: 0 0 20px;
+	}
+	#features .col-md-4 {
+		text-align: center!important;
+	}
+	#features img {
+	    width: 100%;
+	    position: relative;
+	    top: 0px;
+	    left: 0;
+	}
+
+	#more h2,p {
+		text-align: center!important;
+	}
+	#more img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 104%;
+	    position: relative;
+	    top: 0;
+	    left: 0px;
+	    padding: 20px 0;
+	}
+	#review {
+	    padding: 20px 0;
+	}
+	#review p {
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 20px 0 15px;
+	}
+	#review h4 {
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 5px 0 50px;
+	}
+	#discover {
+	    background-color: #030810;
+	    padding: 25px 0;
+	}
+	.flex-container {
+	    display: block;
+	}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+	.preview-m img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 100%;
+	    position: relative;
+	    top: -60px;
+	    left: 0px;
+	}
+
+	#templates img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 100%;
+	    position: relative;
+	    left: -37px;
+	    top: -10px;
+	}
+
+	#templates .t-r {
+		text-align: center!important;
+		padding: 10px;
+	}
+	#features {
+	    padding: 30px 0;
+	}
+	#features h2 {
+	    padding: 0 0 20px;
+	}
+	#features .col-md-4 {
+		text-align: center!important;
+	}
+	#features img {
+	    width: 100%;
+	    position: relative;
+	    top: 0px;
+	    left: 0;
+	}
+
+	#more h2,p {
+		text-align: center!important;
+	}
+	#more img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 104%;
+	    position: relative;
+	    top: 0;
+	    left: 17px;
+	    padding: 20px 0;
+	}
+	#review {
+	    padding: 20px 0;
+	}
+	#review p {
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 20px 0 15px;
+	}
+	#review h4 {
+	    width: 90%;
+	    margin: 0 auto;
+	    padding: 5px 0 50px;
+	}
+	#discover {
+	    background-color: #030810;
+	    padding: 25px 0;
+	}
+	.flex-container {
+	    display: block;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+
+	#hero {
+	    padding: 35px 0 10px;
+	}
+	#preview {
+		padding: 50px 0 0;
+	}
+	.preview-m img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 120%;
+	    position: relative;
+	    top: -60px;
+	    left: -20px;
+	}
+	#templates img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 110%;
+	    position: relative;
+	    left: -38px;
+	    top: 0px;
+	}
+	#features {
+	    padding: 35px 0;
+	}
+	#features h2 {
+	    padding: 0 0 40px;
+	}
+	#features img {
+	    width: 200%;
+	    position: relative;
+	    top: 60px;
+	    left: -100px;
+	}
+	#more {
+	    padding: 30px 0;
+	}
+	#more img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 111%;
+	    position: relative;
+	    top: 70px;
+	    left: 0px;
+	}
+	#review {
+	    background: #061326;
+	    padding: 50px 0 20px;
+	}
+	#review h4 {
+	    width: 60%;
+	    margin: 0 auto;
+	    padding: 5px 0 60px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+	#hero {
+	    padding: 35px 0 10px;
+	}
+	#preview {
+		padding: 50px 0 0;
+	}
+	.preview-m img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 120%;
+	    position: relative;
+	    top: -60px;
+	    left: -29px;
+	}
+
+	#templates img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 100%;
+	    position: relative;
+		left: -30px;
+	    top: -55px;
+	}
+		#features {
+	    padding: 35px 0;
+	}
+	#features h2 {
+	    padding: 0 0 40px;
+	}
+	#features img {
+	    width: 200%;
+	    position: relative;
+	    top: 60px;
+	    left: -100px;
+	}
+	#more img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 106%;
+	    position: relative;
+	    top: -120px;
+	    left: 3px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	#more img {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 110%;
+	    position: relative;
+	    top: -120px;
+	    left: 230px;
+	}
+}
